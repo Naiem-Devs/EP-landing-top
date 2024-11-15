@@ -1,0 +1,462 @@
+/* Big screen :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal screen :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    :root{
+        --f18 : 16px;
+        --f20 : 18px;
+        --f22 : 20px;
+        --f24 : 20px;
+        --f28 : 24px;
+        --f30 : 26px;
+        --f32 : 28px;
+        --f36 : 30px;
+        --f40 : 32px;
+        --f48 : 36px;
+        --f56 : 42px;
+      
+      }
+    .hero__content h1 {
+        font-size: 40px;
+    }
+    
+    .thm_btn {
+        padding: 16px 52px;
+    }
+    
+    .gross-v {
+        max-width: 250px;
+    }
+
+    .mission__content h1 {
+        max-width: 400px;
+    }
+    
+    
+    .mission__blk h1 {
+        font-size: 50px;
+    }
+
+    .partner__blk {
+        flex-direction: column;
+        align-items: baseline;
+    }
+    
+    .partner__blk p {
+        min-height: 160px;
+    }
+    
+    .about__wrp {
+        padding: 36px 30px;
+    }
+    
+    .Dedication__content p {
+        font-size: 28px;
+    }
+    
+    .Clients__blk p {
+        font-size: 16px;
+    }
+
+}
+
+ 
+/* Tablet screen :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    :root{
+        --f18 : 16px;
+        --f20 : 18px;
+        --f22 : 20px;
+        --f24 : 20px;
+        --f28 : 24px;
+        --f30 : 26px;
+        --f32 : 28px;
+        --f36 : 30px;
+        --f40 : 32px;
+        --f48 : 36px;
+        --f56 : 42px;
+      
+      }
+    .hero__content h1 {
+        font-size: 40px;
+    }
+    
+    .thm_btn {
+        padding: 16px 52px;
+    }
+    
+    .gross-v {
+        max-width: 270px;
+        top: -10px;
+    }
+
+    .mission__content h1 {
+        max-width: 400px;
+    }
+    
+    
+    .mission__blk h1 {
+        font-size: 50px;
+    }
+
+    .partner__blk {
+        flex-direction: column;
+        align-items: baseline;
+        margin-bottom: 20px;
+    }
+    
+    .partner__blk p {
+        min-height: 160px;
+    }
+    
+    .about__wrp {
+        padding: 36px 30px;
+        max-width: 575px;
+        margin: auto;
+    }
+
+.ab__img {
+    margin-bottom: 30px;
+}
+    
+    .Dedication__content p {
+        font-size: 28px;
+    }
+    
+    .Clients__blk p {
+        font-size: 16px;
+    }
+    .hero-img {
+        text-align: center;
+        margin-top: 50px;
+    }
+    
+    .mission__img {
+        margin-top: 50px;
+        max-width: 80%;
+        margin-left: auto;
+    }
+
+    .brand__logo ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 40px 65px;
+    }
+    
+    .brand__logo ul li {
+        padding: 0;
+    }
+    .value-area .container {
+        max-width: 500px;
+    }
+
+    .Expert__img {
+        display: none;
+    }
+    
+    .Explore__blk {
+        margin-bottom: 30px;
+        height: auto;
+    }
+    
+    .Explore__blk p {
+        min-height: 100px;
+    }
+    
+    .contact-img {
+        display: none;
+    }
+    
+    .brand__wrp .row {
+        flex-direction: column-reverse;
+        gap: 40px;
+    }
+    .Clients__blk {
+        margin-bottom: 30px;
+    }
+    
+    .social__link {
+        margin: auto;
+    }
+    
+    a.f-logo {
+        display: block;
+        width: max-content;
+        margin: auto;
+    }
+}
+
+ 
+/* small screen :320px. */
+@media (max-width: 767px) {
+    :root{
+        --f18 : 16px;
+        --f20 : 18px;
+        --f22 : 20px;
+        --f24 : 20px;
+        --f28 : 24px;
+        --f30 : 26px;
+        --f32 : 28px;
+        --f36 : 30px;
+        --f40 : 32px;
+        --f48 : 36px;
+        --f56: 36px;
+      }
+    .hero__content h1 {
+        font-size: 30px;
+    }
+    
+    .thm_btn {
+        padding: 16px 52px;
+    }
+    
+    .gross-v {
+        max-width: 229px;
+        top: -10px;
+        left: -67px;
+    }
+
+    .mission__content h1 {
+        max-width: 400px;
+        font-size: 32px;
+    }
+    
+    
+    .mission__blk h1 {
+        font-size: 40px;
+    }
+
+    .partner__blk {
+        flex-direction: column;
+        align-items: baseline;
+        margin-bottom: 20px;
+    }
+    
+    .partner__blk p {
+        min-height: auto;
+    }
+    
+    .about__wrp {
+        padding: 36px 30px;
+        max-width: 575px;
+        margin: auto;
+    }
+
+.ab__img {
+    margin-bottom: 30px;
+}
+    
+    .Dedication__content p {
+        font-size: 18px;
+        line-height: 1.4;
+    }
+    
+    .Clients__blk p {
+        font-size: 16px;
+    }
+    .hero-img {
+        text-align: center;
+        margin-top: 50px;
+    }
+    
+    .mission__img {
+        margin-top: 50px;
+        max-width: 80%;
+        margin-left: auto;
+    }
+    
+    img.ck-out {
+    bottom: 17px;
+    max-width: 200px;
+    }
+    
+    .brand__logo ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 25px 30px;
+    }
+    
+    .brand__logo ul li {
+        padding: 0;
+    }
+    .value-area .container {
+        max-width: 500px;
+    }
+
+    .Expert__img {
+        display: none;
+    }
+    
+    .Explore__blk {
+        margin-bottom: 30px;
+        height: auto;
+    }
+    
+    .Explore__blk p {
+        min-height: 100px;
+    }
+    
+    .contact-img {
+        display: none;
+    }
+    
+    .brand__wrp .row {
+        flex-direction: column-reverse;
+        gap: 40px;
+    }
+    .Clients__blk {
+        margin-bottom: 30px;
+        scale: .9;
+    }
+    
+    .social__link {
+        margin: auto;
+        text-align: center;
+    }
+    
+    a.f-logo {
+        display: block;
+        width: max-content;
+        margin: auto;
+    }
+    .insta-post h1 {
+        flex-direction: column;
+        gap: 10px;
+        font-size: 28px;
+    }
+    
+    .insta-post h1 img {
+        max-width: 30px;
+    }
+    .wedo__content h1 {
+        font-size: 26px;
+    }
+    .business__card {
+        scale: .9;
+        margin-bottom: 0;
+    }
+    .input__blk input::placeholder, .input__blk textarea::placeholder {
+        font-size: 14px;
+    }
+    
+    .input__blk input {
+        height: 50px;
+        padding: 0 16px;
+    }
+    
+    .input__blk textarea {
+        height: 120px;
+        padding: 0 16px;
+        padding-top: 15px;
+    }
+    
+    .contact__form {
+        padding: 50px 20px;
+    }
+    
+    .contact__form a {
+        padding: 16px 0;
+    }
+    
+    .contact__form h1 {
+        font-size: 32px;
+    }
+    
+    .brand__wrp {
+        padding: 40px 30px;
+    }
+    
+    .brand__content h1 {
+        font-size: 28px;
+    }
+    
+    .newsLetter__content {
+        margin: 40px 0;
+    }
+    
+    .mail__box {
+        height: 50px;
+        border-radius: 12px;
+    }
+    
+    .mail__box input {
+        font-size: 16px;
+    }
+    .hero-area {
+        padding-top: 160px;
+        padding-bottom: 50px;
+    }
+    
+    .hero__content .flex {
+        flex-wrap: wrap;
+    }
+    
+    .pt_100 {
+        padding-top: 60px;
+    }
+    
+    .pb_50 {
+        padding-bottom: 40px;
+    }
+    
+    .pb_100 {
+        padding-bottom: 60px;
+    }
+    
+    .mission__blk {
+        margin-bottom: 30px;
+    }
+    
+    .business__card p {
+        height: auto;
+    }
+    
+    .business__card.lg h4 {
+        height: auto;
+    }
+    
+    .business__card.lg {
+        padding: 20px;
+    }
+    .owl-dots {
+        gap: 7px;
+    }
+    
+    .owl-dot {
+        width: 14px;
+        height: 14px;
+    }
+    .video__blk a {
+        max-width: 50px;
+    }
+    
+    .video__blk {
+        border-radius: 20px;
+    }
+    
+    .video-area {
+        margin-bottom: 50px;
+    }
+    
+    .Expert__content .accordion-button::after {
+        background-size: 12px;
+    }
+    
+    .Expert__content .accordion-button:not(.collapsed)::after {
+        width: 12px;
+    }
+    .logo-area {
+        max-width: 40px;
+    }
+}
+ 
+/* Large Mobile screen :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ 
+}
